@@ -91,3 +91,41 @@ function demanderArtist() {
   }
 
   
+  /*SOMME DE DEUX NOMBRES */
+function sommeDeDeuxNombres(a,b){
+  return a +b;
+  }
+  console.log(sommeDeDeuxNombres(7,12));
+  
+  /*FACTORIELLE D'UN NOMBRE */
+  function factorielle(n){
+      let resultat = 1;
+      for( let i = n; i>= 1; i--){
+           resultat *= i;
+      }
+      return resultat;
+  }
+  console.log(factorielle(5));
+  
+  /* NOMBRE SI PAIR OU IMPAIR */
+  function PairOuImpair(nombre){
+      if( nombre % 2 === 0){
+          return " Pair ";
+      }else{
+          return " Impair ";
+      }
+  }
+  console.log(PairOuImpair(7));
+  
+  /* TABLEAU DE NOMBRES */
+   function maxTableau(tab){
+      let max = tab[3];
+      for ( i = 1; i < tab.length; i++){
+      } if  (tab[i] > max){
+          max = tab[i];
+      }
+      return max;
+   }
+   console.log(maxTableau([3,7,8,2,9]));
+
+  

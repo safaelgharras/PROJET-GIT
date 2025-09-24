@@ -1,4 +1,4 @@
-/*let i = 1;
+let i = 1;
 while( i<=2) { 
     let j = 1;
     
@@ -12,7 +12,8 @@ while( i<=2) {
     } 
  
     i++;
-    }*/
+    }
+    /* FULL EXERCICE */
 
  function saisirNombresEtResumer() {
     let sum = 0;
